@@ -6,9 +6,7 @@ import java.sql.SQLException;
 
 public class DBUtil {
 
-    private static final String URL =
-        "jdbc:mariadb://127.0.0.1:3307/library_db?useUnicode=true&characterEncoding=utf8";
-    
+    private static final String URL = "jdbc:mariadb://127.0.0.1:3307/library_db";
     private static final String USER = "root";
     private static final String PASSWORD = "1234";
 
